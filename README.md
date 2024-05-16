@@ -10,7 +10,7 @@ This project consists of a web server written in Go. It demonstrates essential c
 ## 🖥️ Project Structure
 Here's a high-level overview of the code:
 
-* main.go
++ main.go
 - Initializes the server and routes.
 - Handles HTTP requests.
 - Serves static files.
