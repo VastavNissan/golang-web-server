@@ -1,5 +1,5 @@
 # 🌟 Golang Web Server 🌟
-Welcome to the Golang Web Server project! This project showcases my learning journey with Go by implementing a basic web server that serves static files and handles form submissions. 🚀
+Welcome to the Golang Web Server project! This project implements a basic web server that serves static files and handles form submissions using Go. 🚀
 
 ## 📜 Overview
 This project consists of a web server written in Go. It demonstrates essential concepts such as routing, handling HTTP requests, and serving static files.
