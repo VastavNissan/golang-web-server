@@ -19,15 +19,20 @@ This project consists of a web server written in Go. It demonstrates essential c
 
 ## 📋 Code Explanation
 ### main.go
-- FileServer: Serves static files from the ./static directory.
-### Handlers:
-- formHandler: Processes form submissions, extracts name and address, and responds with the form data.
-- helloHandler: Responds with "hello!" when /hello is requested.
-### Server Initialization: Starts the server on port 8080.
+
+- **FileServer**: Serves static files from the `./static` directory.
+- **Handlers**:
+  - **formHandler**: Processes form submissions, extracts `name` and `address`, and responds with the form data.
+  - **helloHandler**: Responds with "hello!" when `/hello` is requested.
+- **Server Initialization**: Starts the server on port 8080.
+
 ### static/index.html
+
 - Simple static webpage displaying "Static website".
+
 ### static/form.html
-- Form submission page with fields for name and address.
+
+- Form submission page with fields for `name` and `address`.
 
 ## 🌟 Highlights
 - **Routing**: Used `http.Handle` and `http.HandleFunc` for routing.
