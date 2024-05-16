@@ -30,13 +30,13 @@ This project consists of a web server written in Go. It demonstrates essential c
 - Form submission page with fields for name and address.
 
 ## 🌟 Highlights
-### Routing: Used http.Handle and http.HandleFunc for routing.
-### Request Parsing: Used r.ParseForm to parse form data.
-### HTTP Methods: Demonstrated handling of GET and POST requests.
-### Serving Static Files: Used http.FileServer to serve static content.
+- **Routing**: Used `http.Handle` and `http.HandleFunc` for routing.
+- **Request Parsing**: Used `r.ParseForm` to parse form data.
+- **HTTP Methods**: Demonstrated handling of GET and POST requests.
+- **Serving Static Files**: Used `http.FileServer` to serve static content.
 
 ## 📚 Go Concepts Used
-### HTTP Routing: Creating different routes to handle various endpoints.
-### Form Handling: Parsing and processing form data from POST requests.
-### Static File Serving: Serving static files using http.FileServer.
-### Error Handling: Managing errors effectively using Go's error handling mechanisms.
+- **HTTP Routing**: Creating different routes to handle various endpoints.
+- **Form Handling**: Parsing and processing form data from POST requests.
+- **Static File Serving**: Serving static files using `http.FileServer`.
+- **Error Handling**: Managing errors effectively using Go's error handling mechanisms.
